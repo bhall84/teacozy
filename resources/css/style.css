@@ -35,7 +35,11 @@ nav {
   text-align: right;
   padding-right: 10px;
 }
-nav span a {
+nav li {
+  display: inline-block;
+  text-align: center;
+}
+nav a {
   text-decoration: underline;
   color: seashell;
   padding: 10px;
