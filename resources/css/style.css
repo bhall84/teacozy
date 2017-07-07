@@ -19,7 +19,8 @@ header {
   width: 100%;
   border-bottom: 1px solid seashell;
   position: fixed;
-  z-index: 1;
+  z-index: 5;
+  position: static;
 }
 .logo {
   padding-left: 10px;
@@ -30,7 +31,6 @@ img {
   max-width: 100%;
   max-height: 100%;
 }
-
 nav {
   text-align: right;
   padding-right: 10px;
@@ -50,28 +50,34 @@ nav a {
 ---------------------------------*/
 
 .main {
-  display: block;
   width: 1200px;
+  margin: 0 auto;
 }
 
-
+/* Featured tea content
+--------------------------*/
 
 #mission {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 75px;
-  background-image: url(/Users/benjaminhall/projects/teacozy/resources/images/mission-background.jpg);
+  background-image: url(../images/mission-background.jpg);
   height: 700px;
   width: 1200px;
   text-align: center;
   justify-content: center;
 }
 
+.mission-text {
+  height: 130px;
+  width: 1200px;
+  margin: auto;
+  background-color: black;
+}
+
 .featured-tea-heading {
-  display: flex;
-  position: relative;
-  align-items: center;
-  justify-content: center;
+  height: 100px;
+  width: 1200px;
+  margin: auto;
 }
 
 .featured-tea {
