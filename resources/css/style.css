@@ -54,9 +54,6 @@ nav a {
   margin: 0 auto;
 }
 
-/* Featured tea content
---------------------------*/
-
 #mission {
   display: flex;
   flex-wrap: wrap;
@@ -74,22 +71,64 @@ nav a {
   background-color: black;
 }
 
-.featured-tea-heading {
-  height: 100px;
-  width: 1200px;
-  margin: auto;
-}
+/* Featured tea content
+--------------------------*/
 
 .featured-tea {
   display: flex;
   width: 1000px;
-  align-items: center;
+  height: 800px;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: 0 auto;
   justify-content: center;
+  align-content: space-around;
+  text-align: center;
+}
+
+.featured-tea-heading {
+  position: static;
+  height: 100px;
+  width: 1200px;
 }
 
 .rectangle {
   height: 200px;
   width: 300px;
-  align-items: center;
-  padding: 5px;
+  margin: auto;
+}
+
+/* Locations Section
+------------------------*/
+
+#locations {
+  display: block;
+  background-image: url(../images/locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.locations-heading h2{
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+
+}
+
+.flex-countainer-locations.rectangle {
+  display: flex;
+  background-color: black;
+  opacity: 1;
+}
+
+.flex-container-locations {
+  display: flex;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
 }
