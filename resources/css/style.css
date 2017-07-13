@@ -86,7 +86,7 @@ h2, h3, h4 {
   height: 700px;
   flex-flow: row wrap;
   justify-content: space-around;
-  margin: 0 auto;
+  margin: auto;
   justify-content: center;
   align-content: space-around;
   text-align: center;
